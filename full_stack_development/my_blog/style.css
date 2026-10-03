@@ -1,0 +1,11 @@
+h1 {
+    color: blue;
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    background-color: #f0f0f0;
+    font-size: 50px;
+    /* width: fit-content; */
+    display: inline-block;
+}
