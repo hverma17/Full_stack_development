@@ -2,8 +2,22 @@ h1 {
   color: blue;
 }
 
+#google-link {
+  color: red;
+}
+
+table {
+  border-collapse: collapse;
+  width: 75%;
+}
+
 th {
   background-color: #eb8181;
+  padding: 4px;
+}
+
+td {
+  border: 1px solid #ddd;
   padding: 4px;
 }
 
