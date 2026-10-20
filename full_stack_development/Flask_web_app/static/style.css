@@ -1,0 +1,30 @@
+.container .image {
+    position: relative;
+    width: 100%;
+}
+
+.container .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(71, 71, 66);
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.login{
+    position: absolute;
+    top: 5%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    color: rgb(86, 16, 216);
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    width: 500%;
+    padding: 40%;
+    
+}

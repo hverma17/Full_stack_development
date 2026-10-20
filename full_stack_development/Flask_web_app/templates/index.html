@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Flask App</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="static/homepage_img.jpg" alt="home_page" width="100%" height="auto">
+        </div>
+        <div class="content">
+            <h1>Welcome to My Flask App</h1>
+        </div>
+        <div class="login">
+            <button id="login">login</button>
+        </div>
+    </div>
+</body>
+<script>
+    document.getElementById("login").addEventListener("click", function() {
+        window.location.href = "/login";
+    });
+</script>
+
+</html>
